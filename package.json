@@ -1,0 +1,15 @@
+{
+  "name": "jsextended",
+  "version": "0.1.0",
+  "description": "A JavaScript library that extends on many objects and datatypes in JavaScript to make things easier, and adds a new (complex) datatypes based on primitive ones",
+  "main": "JSExtended.js",
+  "scripts": {
+    "test": "node lib/test.js",
+    "build": "rollup lib/load.js --file lib/JSExtended.js --format umd --name \"JSExtended\""
+  },
+  "author": "",
+  "license": "ISC",
+  "jshintConfig" : {
+    "esversion": 6
+  }
+}
