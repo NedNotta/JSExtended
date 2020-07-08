@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>
+            
+        </div>
+        <script src='./lib/JSExtended.js'></script>
+        <script>
+            JSExtended.load(function () {
+
+                const css = {
+                    "lol": {
+                        true: true
+                    }
+                };
+                
+                css.keys().each(function (key) {
+                    console.log(`${key}{${css[key].toCSS()}}`);
+                });
+
+            });
+        </script>
+    </body>
+</html>
